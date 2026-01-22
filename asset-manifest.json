@@ -1,15 +1,15 @@
 {
   "files": {
-    "main.css": "/static/css/main.ac81d5a8.css",
-    "main.js": "/static/js/main.7184305a.js",
-    "static/media/logo_aika.png": "/static/media/logo_aika.2bf0f3e0c730883a30bb.png",
-    "static/media/logoN_aika.png": "/static/media/logoN_aika.cd0f319ce4775e1b27f3.png",
-    "index.html": "/index.html",
-    "main.ac81d5a8.css.map": "/static/css/main.ac81d5a8.css.map",
-    "main.7184305a.js.map": "/static/js/main.7184305a.js.map"
+    "main.css": "/Saraa-project/static/css/main.ac81d5a8.css",
+    "main.js": "/Saraa-project/static/js/main.6888b028.js",
+    "static/media/logo_aika.png": "/Saraa-project/static/media/logo_aika.2bf0f3e0c730883a30bb.png",
+    "static/media/logoN_aika.png": "/Saraa-project/static/media/logoN_aika.cd0f319ce4775e1b27f3.png",
+    "index.html": "/Saraa-project/index.html",
+    "main.ac81d5a8.css.map": "/Saraa-project/static/css/main.ac81d5a8.css.map",
+    "main.6888b028.js.map": "/Saraa-project/static/js/main.6888b028.js.map"
   },
   "entrypoints": [
     "static/css/main.ac81d5a8.css",
-    "static/js/main.7184305a.js"
+    "static/js/main.6888b028.js"
   ]
 }

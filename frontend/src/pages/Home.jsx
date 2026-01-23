@@ -4,10 +4,26 @@ import { useAuth } from "../context/AuthContext";
 
 function Home() {
   const { user } = useAuth(); // user object JWT-тэй
-  const [posts, setPosts] = useState([]);
   const [showForm, setShowForm] = useState(false);
   const [img, setImg] = useState("");
   const [comment, setComment] = useState("");
+
+  const [posts, setPosts] = useState([
+    {
+      id: 1,
+      author: "Erkhanat",
+      img: "https://imgix.cosmicjs.com/bab6b030-ff1e-11ed-8fca-9b0db64c9b86-nasa-vhSz50AaFAs-unsplash.jpg?w=1400&auto=compression,format",
+      comment: "Өнөөдрийн хоол амттай байлаа!",
+      views: 120,
+    },
+    {
+      id: 2,
+      author: "Student2",
+      img: "https://imgix.cosmicjs.com/baff2ae0-ff1e-11ed-8fca-9b0db64c9b86-greg-rakozy-oMpAz-DN-9I-unsplash.jpg?w=1400&auto=compression,format",
+      comment: "Сайн уу! Энэ сайт их гоё байна",
+      views: 85,
+    },
+  ]);
 
   // Posts-г авах
   useEffect(() => {
